@@ -27,7 +27,7 @@ const depositoTexto = document.getElementById('depositoActual'),
         
     })
 
-    btnDeposito.addEventListener('click', (event) => {
+    btnRetiro.addEventListener('click', (event) => {
         const valorRetiro = inputRetiro.value
         if (valorRetiro == 0){
             alert('No hay dinero para retirar')
@@ -38,7 +38,7 @@ const depositoTexto = document.getElementById('depositoActual'),
             alert("Fondos Insuficientes")
             return
         }
-        
+
         
         alert('Retiro exitoso')
         
